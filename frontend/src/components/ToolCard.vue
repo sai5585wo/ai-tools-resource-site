@@ -1,5 +1,12 @@
 <template>
-  <a :href="url" target="_blank" rel="noopener noreferrer" class="tool-card">
+  <component 
+    :is="url ? 'a' : 'div'" 
+    :href="url" 
+    :target="url ? '_blank' : undefined" 
+    :rel="url ? 'noopener noreferrer' : undefined" 
+    class="tool-card"
+    :class="{ 'no-link': !url }"
+  >
     <div class="tool-header">
       <div class="tool-icon">
         <img v-if="icon && icon.startsWith('http')" :src="icon" :alt="title">
@@ -11,7 +18,7 @@
     <div class="tool-tags">
       <span class="tag" :class="tag.type" v-for="tag in tags" :key="tag.text">{{ tag.text }}</span>
     </div>
-  </a>
+  </component>
 </template>
 
 <script setup>
@@ -34,7 +41,7 @@ defineProps({
   },
   url: {
     type: String,
-    required: true
+    default: ''
   }
 })
 </script>
@@ -54,10 +61,14 @@ defineProps({
   cursor: pointer;
 }
 
-.tool-card:hover {
+.tool-card:not(.no-link):hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   border-color: #e0e0e0;
+}
+
+.tool-card.no-link {
+  cursor: default;
 }
 
 .tool-header {

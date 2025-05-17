@@ -142,6 +142,69 @@ const tools = [
     url: 'https://yige.baidu.com'
   },
   {
+    title: 'Claude 3 Opus',
+    description: '最新一代AI语言模型，支持多模态理解和生成',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: icons.claude,
+    category: '最新推荐',
+    subCategory: '最新推荐',
+    url: 'https://claude.ai'
+  },
+  {
+    title: 'Gemini Pro',
+    description: 'Google最新AI模型，支持多模态交互',
+    tags: [{ text: '热门', type: 'hot' }, { text: '中英', type: 'zh' }],
+    icon: '🌟',
+    category: '最新推荐',
+    subCategory: '最新推荐',
+    url: 'https://gemini.google.com'
+  },
+  {
+    title: 'Sora',
+    description: 'OpenAI革命性的文本生成视频AI模型',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🎬',
+    category: '最新推荐',
+    subCategory: '最新推荐',
+    url: 'https://openai.com/sora'
+  },
+  {
+    title: 'GPTs Store',
+    description: 'OpenAI定制化AI助手商店',
+    tags: [{ text: '热门', type: 'hot' }, { text: '中英', type: 'zh' }],
+    icon: '🤖',
+    category: '最新推荐',
+    subCategory: '最新推荐',
+    url: 'https://chat.openai.com/gpts'
+  },
+  {
+    title: 'AutoGPT',
+    description: '自主AI代理，可执行复杂任务链',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '⚡',
+    category: '最新推荐',
+    subCategory: '最新推荐',
+    url: 'https://autogpt.net'
+  },
+  {
+    title: 'Anthropic Claude API',
+    description: '企业级AI API服务，支持长文本处理',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '💫',
+    category: '最新推荐',
+    subCategory: '最新推荐',
+    url: 'https://anthropic.com/api'
+  },
+  {
+    title: 'Perplexity AI',
+    description: '智能搜索引擎，实时信息查询和分析',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🔍',
+    category: '最新推荐',
+    subCategory: '最新推荐',
+    url: 'https://perplexity.ai'
+  },
+  {
     title: 'H2O Danube3',
     description: '文本生成图像的先进模型',
     tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
@@ -174,7 +237,8 @@ const tools = [
     tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
     icon: '🌟',
     category: 'AI绘画',
-    subCategory: '电商图片生成'
+    subCategory: '电商图片生成',
+    url: 'https://dreamlike.art'
   },
   {
     title: 'NightCafe Studio',
@@ -182,7 +246,8 @@ const tools = [
     tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
     icon: '🌙',
     category: 'AI绘画',
-    subCategory: '热门推荐'
+    subCategory: '热门推荐',
+    url: 'https://nightcafe.studio'
   },
   {
     title: 'Tiamat',
@@ -190,7 +255,8 @@ const tools = [
     tags: [{ text: '新品', type: 'new' }, { text: '中文', type: 'zh' }],
     icon: '🌀',
     category: 'AI绘画',
-    subCategory: '抠图背景去除'
+    subCategory: '抠图背景去除',
+    url: 'https://tiamat.ai'
   },
   {
     title: 'Lexica',
@@ -198,7 +264,8 @@ const tools = [
     tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
     icon: '📱',
     category: 'AI绘画',
-    subCategory: 'LOGO生成'
+    subCategory: 'LOGO生成',
+    url: 'https://lexica.art'
   },
 
   // AI绘画
@@ -207,126 +274,144 @@ const tools = [
     description: '将您的草图转化为精美图像。',
     tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
     icon: '✏️',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://scribblediffusion.com'
   },
   {
     title: 'LeonardoAI',
     description: '程序创造力，利用Leonardo AI的力量。',
     tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
     icon: '👨‍🎨',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://leonardo.ai'
   },
   {
     title: 'DreamStudio',
     description: '智能创意工具，助力您的创作。',
     tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
     icon: '🎨',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://dreamstudio.ai'
   },
   {
     title: 'LibilibAI',
     description: '中国领先的AI创作平台,具有强大的中文理解能力。',
     tags: [{ text: '新品', type: 'new' }, { text: '中文', type: 'zh' }],
     icon: '🎯',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://libilib.com'
   },
   {
     title: '无界 AI',
     description: '无界 AI - 人人都是艺术家。',
     tags: [{ text: '免费', type: 'free' }, { text: '中文', type: 'zh' }],
     icon: '🎼',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://wujieai.com'
   },
   {
     title: 'Clipdrop',
     description: 'AI 强力图像处理工具。',
     tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
     icon: '✂️',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://clipdrop.co'
   },
   {
     title: 'Adobe Firefly',
     description: '创造力无限，文字变艺术。',
     tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
     icon: '🔥',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://firefly.adobe.com'
   },
   {
     title: '吐司 Tusi.Art',
     description: '在线生图的 AI 梗图分享社区。',
     tags: [{ text: '免费', type: 'free' }, { text: '中文', type: 'zh' }],
     icon: '🍞',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://tusi.art'
   },
   {
     title: '悠船',
     description: '让创意更简单，更高效。',
     tags: [{ text: '推荐', type: 'hot' }, { text: '中文', type: 'zh' }],
     icon: '⛵',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://www.youchuang.fun'
   },
   {
     title: '海艺SeaArt',
     description: '免费AI图片生成平台。',
     tags: [{ text: '免费', type: 'free' }, { text: '中文', type: 'zh' }],
     icon: '🌊',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://seaart.ai'
   },
   {
     title: '触手 AI',
     description: '国产AI绘画生成工具平台。',
     tags: [{ text: '新品', type: 'new' }, { text: '中文', type: 'zh' }],
     icon: '🤖',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://chushou.tv'
   },
   {
     title: 'Bing Image Creator',
     description: '来自Microsoft Bing的图像创作工具。',
     tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
     icon: '🔍',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://www.bing.com/create'
   },
   {
     title: '即梦',
     description: '一款AI创作工具，通过智能描述和创意提示生成图像。',
     tags: [{ text: '推荐', type: 'hot' }, { text: '中文', type: 'zh' }],
     icon: '💭',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://jimmeng.com'
   },
   {
     title: 'nijijourney',
     description: '魔法般的二次元绘画生成！',
     tags: [{ text: '付费', type: 'pro' }, { text: 'JP', type: 'jp' }],
     icon: '✨',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://nijijourney.com'
   },
   {
     title: 'Getimg.ai',
     description: '强大的AI工具套件。',
     tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
     icon: '🎨',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://getimg.ai'
   },
   {
     title: 'Ideogram.ai',
     description: '释放一次性生成多种风格的艺术图像。',
     tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
     icon: '🎭',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://ideogram.ai'
   },
   {
     title: 'Canva',
     description: '通过 AI 文本生成图像,各种完美选项。',
     tags: [{ text: '热门', type: 'hot' }, { text: '中英', type: 'zh' }],
     icon: '🎨',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://www.canva.com'
   },
   {
     title: 'WHEE',
     description: '一刻打造理想的WHEE。',
     tags: [{ text: '新品', type: 'new' }, { text: '中文', type: 'zh' }],
     icon: '🎪',
-    category: 'AI绘画'
+    category: 'AI绘画',
+    url: 'https://whee.com'
   },
 
   // AI写作
@@ -336,6 +421,7 @@ const tools = [
     tags: [{ text: '付费', type: 'pro' }, { text: '中英', type: 'zh' }],
     icon: icons.chatgpt,
     category: 'AI写作',
+    subCategory: '热门推荐',
     url: 'https://chat.openai.com'
   },
   {
@@ -344,6 +430,7 @@ const tools = [
     tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
     icon: icons.claude,
     category: 'AI写作',
+    subCategory: '热门推荐',
     url: 'https://claude.ai'
   },
   {
@@ -352,7 +439,116 @@ const tools = [
     tags: [{ text: '推荐', type: 'hot' }, { text: '中文', type: 'zh' }],
     icon: icons.xiezuomao,
     category: 'AI写作',
+    subCategory: '热门推荐',
     url: 'https://xiezuocat.com'
+  },
+  {
+    title: 'Notion AI',
+    description: '强大的AI写作和编辑助手，集成在Notion中。',
+    tags: [{ text: '付费', type: 'pro' }, { text: '中英', type: 'zh' }],
+    icon: icons.notion,
+    category: 'AI写作',
+    subCategory: 'AI论文',
+    url: 'https://notion.so'
+  },
+  {
+    title: 'Grammarly',
+    description: '专业的AI写作润色和语法检查工具。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '✍️',
+    category: 'AI写作',
+    subCategory: 'AI内容检测',
+    url: 'https://grammarly.com'
+  },
+  {
+    title: 'Copy.ai',
+    description: '专业的AI营销文案和内容生成工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '📝',
+    category: 'AI写作',
+    subCategory: '热门推荐',
+    url: 'https://copy.ai'
+  },
+  {
+    title: 'Jasper',
+    description: '面向企业的AI内容创作平台。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '💡',
+    category: 'AI写作',
+    subCategory: '热门推荐',
+    url: 'https://jasper.ai'
+  },
+  {
+    title: 'DeepL Write',
+    description: 'AI驱动的写作改进和翻译工具。',
+    tags: [{ text: '新品', type: 'new' }, { text: '中英', type: 'zh' }],
+    icon: '🌐',
+    category: 'AI写作',
+    subCategory: 'AI文本摘要',
+    url: 'https://deepl.com/write'
+  },
+  {
+    title: 'Novel AI',
+    description: 'AI辅助小说创作工具，支持情节发展。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '📚',
+    category: 'AI写作',
+    subCategory: 'AI小说写作',
+    url: 'https://novelai.net'
+  },
+  {
+    title: '秘塔写作',
+    description: '中文AI写作助手，适合学术和公文写作。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: '中文', type: 'zh' }],
+    icon: '📖',
+    category: 'AI写作',
+    subCategory: 'AI公文写作',
+    url: 'https://xiezuo.metaso.cn'
+  },
+  {
+    title: 'Rytr',
+    description: '多语言AI写作助手，支持多种写作场景。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '✨',
+    category: 'AI写作',
+    subCategory: '热门推荐',
+    url: 'https://rytr.me'
+  },
+  {
+    title: 'WordAI',
+    description: '智能文本重写和内容优化工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🔄',
+    category: 'AI写作',
+    subCategory: 'AI内容检测',
+    url: 'https://wordai.com'
+  },
+  {
+    title: 'Writesonic',
+    description: 'AI驱动的内容创作和营销文案工具。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '🚀',
+    category: 'AI写作',
+    subCategory: '热门推荐',
+    url: 'https://writesonic.com'
+  },
+  {
+    title: 'Academic Writer',
+    description: '专业的学术论文AI写作助手。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '📄',
+    category: 'AI写作',
+    subCategory: 'AI论文',
+    url: 'https://writer.com/academic'
+  },
+  {
+    title: 'Compose AI',
+    description: '智能邮件和商务写作助手。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '📧',
+    category: 'AI写作',
+    subCategory: '热门推荐',
+    url: 'https://compose.ai'
   },
 
   // AI视频
@@ -362,6 +558,7 @@ const tools = [
     tags: [{ text: '专业版', type: 'pro' }, { text: 'EN', type: 'en' }],
     icon: icons.runway,
     category: 'AI视频',
+    subCategory: '热门推荐',
     url: 'https://runwayml.com'
   },
   {
@@ -370,6 +567,7 @@ const tools = [
     tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
     icon: icons.pika,
     category: 'AI视频',
+    subCategory: '热门推荐',
     url: 'https://pika.art'
   },
   {
@@ -378,7 +576,116 @@ const tools = [
     tags: [{ text: '热门', type: 'hot' }, { text: '中英', type: 'zh' }],
     icon: icons.heygen,
     category: 'AI视频',
+    subCategory: '热门推荐',
     url: 'https://www.heygen.com'
+  },
+  {
+    title: 'Synthesia',
+    description: '专业的AI视频生成平台，适合企业培训和营销。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: icons.synthesia,
+    category: 'AI视频',
+    subCategory: '对口型视频',
+    url: 'https://www.synthesia.io'
+  },
+  {
+    title: 'Kapwing',
+    description: '在线视频编辑器，集成AI功能。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🎥',
+    category: 'AI视频',
+    subCategory: 'AI自动剪辑',
+    url: 'https://www.kapwing.com'
+  },
+  {
+    title: 'Descript',
+    description: '革命性的AI视频编辑工具，支持文本编辑视频。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '🎬',
+    category: 'AI视频',
+    subCategory: 'AI自动剪辑',
+    url: 'https://www.descript.com'
+  },
+  {
+    title: 'D-ID',
+    description: 'AI数字人视频生成平台。',
+    tags: [{ text: '热门', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '👤',
+    category: 'AI视频',
+    subCategory: '对口型视频',
+    url: 'https://www.d-id.com'
+  },
+  {
+    title: 'Fliki',
+    description: '将文本转换为AI配音视频。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🎙️',
+    category: 'AI视频',
+    subCategory: '对口型视频',
+    url: 'https://fliki.ai'
+  },
+  {
+    title: 'InVideo',
+    description: '在线视频制作工具，集成AI功能。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🎦',
+    category: 'AI视频',
+    subCategory: 'AI自动剪辑',
+    url: 'https://invideo.io'
+  },
+  {
+    title: 'Pictory',
+    description: '自动从长视频中提取精彩片段。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '✂️',
+    category: 'AI视频',
+    subCategory: 'AI自动剪辑',
+    url: 'https://pictory.ai'
+  },
+  {
+    title: 'Veed.io',
+    description: '在线视频编辑器，支持AI字幕和配音。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '🎵',
+    category: 'AI视频',
+    subCategory: '对口型视频',
+    url: 'https://www.veed.io'
+  },
+  {
+    title: 'Kaiber',
+    description: 'AI视频生成和风格转换工具。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🎨',
+    category: 'AI视频',
+    subCategory: '视频转动漫',
+    url: 'https://kaiber.ai'
+  },
+  {
+    title: 'Colossyan',
+    description: '企业级AI视频创作平台。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🎭',
+    category: 'AI视频',
+    subCategory: 'AI换脸',
+    url: 'https://www.colossyan.com'
+  },
+  {
+    title: 'Shuffll',
+    description: 'AI驱动的社交媒体视频制作工具。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '📱',
+    category: 'AI视频',
+    subCategory: 'AI自动剪辑',
+    url: 'https://shuffll.com'
+  },
+  {
+    title: 'Topaz Video AI',
+    description: 'AI视频增强和放大工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🔍',
+    category: 'AI视频',
+    subCategory: '视频转动漫',
+    url: 'https://www.topazlabs.com/topaz-video-ai'
   },
 
   // AI办公
@@ -388,6 +695,7 @@ const tools = [
     tags: [{ text: '推荐', type: 'hot' }, { text: '中英', type: 'zh' }],
     icon: icons.notion,
     category: 'AI办公',
+    subCategory: '热门推荐',
     url: 'https://www.notion.so'
   },
   {
@@ -396,6 +704,7 @@ const tools = [
     tags: [{ text: '新品', type: 'new' }, { text: '中英', type: 'zh' }],
     icon: icons.microsoft,
     category: 'AI办公',
+    subCategory: '热门推荐',
     url: 'https://www.microsoft.com/microsoft-365/copilot'
   },
   {
@@ -404,7 +713,116 @@ const tools = [
     tags: [{ text: '免费版', type: 'free' }, { text: '中英', type: 'zh' }],
     icon: icons.canva,
     category: 'AI办公',
+    subCategory: '热门推荐',
     url: 'https://www.canva.com'
+  },
+  {
+    title: 'Beautiful.ai',
+    description: 'AI驱动的专业演示文稿制作工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '📊',
+    category: 'AI办公',
+    subCategory: 'AI制作PPT',
+    url: 'https://www.beautiful.ai'
+  },
+  {
+    title: 'Tome',
+    description: 'AI驱动的故事叙述和演示工具。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '📖',
+    category: 'AI办公',
+    subCategory: 'AI制作PPT',
+    url: 'https://tome.app'
+  },
+  {
+    title: 'Gamma',
+    description: '下一代演示文稿创作平台。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '🎯',
+    category: 'AI办公',
+    subCategory: 'AI制作PPT',
+    url: 'https://gamma.app'
+  },
+  {
+    title: 'Coda AI',
+    description: '智能文档协作平台。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '📝',
+    category: 'AI办公',
+    subCategory: 'AI文档助手',
+    url: 'https://coda.io'
+  },
+  {
+    title: 'Mem.ai',
+    description: '智能笔记和知识管理工具。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🧠',
+    category: 'AI办公',
+    subCategory: 'AI文档助手',
+    url: 'https://mem.ai'
+  },
+  {
+    title: 'Taskade AI',
+    description: 'AI驱动的项目管理和协作工具。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '✅',
+    category: 'AI办公',
+    subCategory: 'AI文档助手',
+    url: 'https://www.taskade.com'
+  },
+  {
+    title: 'Rows',
+    description: '智能电子表格工具，支持AI分析。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '📊',
+    category: 'AI办公',
+    subCategory: 'AI表格处理',
+    url: 'https://rows.com'
+  },
+  {
+    title: 'Numbrs',
+    description: 'AI驱动的财务分析工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '💹',
+    category: 'AI办公',
+    subCategory: 'AI表格处理',
+    url: 'https://numbrs.ai'
+  },
+  {
+    title: 'XMind',
+    description: 'AI辅助思维导图工具。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: '中英', type: 'zh' }],
+    icon: '🌐',
+    category: 'AI办公',
+    subCategory: 'AI思维导图',
+    url: 'https://xmind.ai'
+  },
+  {
+    title: 'MindShow',
+    description: 'AI驱动的演示文稿动画工具。',
+    tags: [{ text: '新品', type: 'new' }, { text: '中文', type: 'zh' }],
+    icon: '🎬',
+    category: 'AI办公',
+    subCategory: 'AI制作PPT',
+    url: 'https://www.mindshow.ai'
+  },
+  {
+    title: 'Craft',
+    description: '现代化的文档创作工具，集成AI功能。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '✨',
+    category: 'AI办公',
+    subCategory: 'AI文档助手',
+    url: 'https://www.craft.do'
+  },
+  {
+    title: 'Airtable AI',
+    description: '智能数据库和表格处理工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '📋',
+    category: 'AI办公',
+    subCategory: 'AI表格处理',
+    url: 'https://www.airtable.com'
   },
 
   // AI编程
@@ -414,6 +832,7 @@ const tools = [
     tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
     icon: icons.github,
     category: 'AI编程',
+    subCategory: '热门推荐',
     url: 'https://github.com/features/copilot'
   },
   {
@@ -422,6 +841,7 @@ const tools = [
     tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
     icon: icons.codewhisperer,
     category: 'AI编程',
+    subCategory: '热门推荐',
     url: 'https://aws.amazon.com/codewhisperer'
   },
   {
@@ -430,7 +850,116 @@ const tools = [
     tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
     icon: icons.cursor,
     category: 'AI编程',
+    subCategory: '热门推荐',
     url: 'https://cursor.sh'
+  },
+  {
+    title: 'Tabnine',
+    description: 'AI代码补全工具，支持所有主流IDE。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '⌨️',
+    category: 'AI编程',
+    subCategory: '代码补全',
+    url: 'https://www.tabnine.com'
+  },
+  {
+    title: 'Replit',
+    description: '在线IDE与AI编程助手集成。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '💻',
+    category: 'AI编程',
+    subCategory: '代码生成',
+    url: 'https://replit.com'
+  },
+  {
+    title: 'CodeGeeX',
+    description: '开源的AI编程助手，支持多种编程语言。',
+    tags: [{ text: '免费', type: 'free' }, { text: '中英', type: 'zh' }],
+    icon: '🔧',
+    category: 'AI编程',
+    subCategory: '代码生成',
+    url: 'https://codegeex.cn'
+  },
+  {
+    title: 'Codeium',
+    description: '免费的AI代码补全工具。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🚀',
+    category: 'AI编程',
+    subCategory: '代码补全',
+    url: 'https://codeium.com'
+  },
+  {
+    title: 'Sourcegraph Cody',
+    description: 'AI代码搜索和理解工具。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🔍',
+    category: 'AI编程',
+    subCategory: '代码生成',
+    url: 'https://sourcegraph.com/cody'
+  },
+  {
+    title: 'Amazon CodeCatalyst',
+    description: 'AWS的统一软件开发服务。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '☁️',
+    category: 'AI编程',
+    subCategory: '代码优化',
+    url: 'https://aws.amazon.com/codecatalyst'
+  },
+  {
+    title: 'Mutable AI',
+    description: 'AI驱动的代码重构和优化工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🔄',
+    category: 'AI编程',
+    subCategory: '代码优化',
+    url: 'https://mutable.ai'
+  },
+  {
+    title: 'CodeConverter',
+    description: 'AI驱动的代码转换工具。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🔄',
+    category: 'AI编程',
+    subCategory: '代码转换',
+    url: 'https://codeconverter.ai'
+  },
+  {
+    title: 'Safurai',
+    description: 'AI代码审查和优化助手。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🛡️',
+    category: 'AI编程',
+    subCategory: '代码优化',
+    url: 'https://safurai.com'
+  },
+  {
+    title: 'Stenography',
+    description: 'AI驱动的代码文档生成工具。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '📝',
+    category: 'AI编程',
+    subCategory: '代码生成',
+    url: 'https://stenography.dev'
+  },
+  {
+    title: 'Mintlify',
+    description: 'AI驱动的文档编写助手。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '📚',
+    category: 'AI编程',
+    subCategory: '代码生成',
+    url: 'https://mintlify.com'
+  },
+  {
+    title: 'Pieces.app',
+    description: 'AI驱动的代码片段管理工具。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🧩',
+    category: 'AI编程',
+    subCategory: '代码优化',
+    url: 'https://pieces.app'
   },
   {
     title: 'Character.AI',
@@ -575,6 +1104,362 @@ const tools = [
     icon: icons.raycast,
     category: 'AI插件',
     url: 'https://www.raycast.com'
+  },
+  {
+    title: 'Claude Chat',
+    description: 'Anthropic开发的AI助手，擅长学术和专业对话。',
+    tags: [{ text: '热门', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '🤖',
+    category: 'AI聊天',
+    subCategory: 'AI虚拟角色',
+    url: 'https://claude.ai/chat'
+  },
+  {
+    title: 'Gemini',
+    description: 'Google推出的AI助手，支持多模态对话。',
+    tags: [{ text: '新品', type: 'new' }, { text: '中英', type: 'zh' }],
+    icon: '🌟',
+    category: 'AI聊天',
+    subCategory: 'AI智能客服',
+    url: 'https://gemini.google.com'
+  },
+  {
+    title: 'ChatGPT',
+    description: 'OpenAI开发的AI语言模型，支持多场景对话。',
+    tags: [{ text: '热门', type: 'hot' }, { text: '中英', type: 'zh' }],
+    icon: '💬',
+    category: 'AI聊天',
+    subCategory: '热门推荐',
+    url: 'https://chat.openai.com'
+  },
+  {
+    title: 'Poe',
+    description: '集成多个AI模型的对话平台。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🦜',
+    category: 'AI聊天',
+    subCategory: '热门推荐',
+    url: 'https://poe.com'
+  },
+  {
+    title: 'Anthropic API',
+    description: '企业级AI对话API服务。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🔌',
+    category: 'AI聊天',
+    subCategory: 'AI智能客服',
+    url: 'https://anthropic.com/api'
+  },
+  {
+    title: 'Replika',
+    description: '个性化AI伴侣，提供情感支持和对话。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '🤗',
+    category: 'AI聊天',
+    subCategory: 'AI虚拟角色',
+    url: 'https://replika.com'
+  },
+  {
+    title: 'Pi by Inflection',
+    description: '富有同理心的AI助手。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🥧',
+    category: 'AI聊天',
+    subCategory: 'AI虚拟角色',
+    url: 'https://pi.ai'
+  },
+  {
+    title: 'Anthropic Claude 3',
+    description: '最新一代AI助手，支持多模态理解。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🌟',
+    category: 'AI聊天',
+    subCategory: '热门推荐',
+    url: 'https://claude.ai'
+  },
+  {
+    title: 'LangChain Chat',
+    description: '基于LangChain的可定制AI助手。',
+    tags: [{ text: '开发者', type: 'dev' }, { text: 'EN', type: 'en' }],
+    icon: '⚡',
+    category: 'AI聊天',
+    subCategory: 'AI智能客服',
+    url: 'https://chat.langchain.com'
+  },
+  // AI音频工具
+  {
+    title: 'Play.ht',
+    description: 'AI语音生成和克隆平台。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '🎧',
+    category: 'AI音频',
+    subCategory: '文本到语音',
+    url: 'https://play.ht'
+  },
+  {
+    title: 'Resemble.ai',
+    description: '专业的AI语音克隆和合成平台。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🎤',
+    category: 'AI音频',
+    subCategory: 'AI语音克隆',
+    url: 'https://www.resemble.ai'
+  },
+  {
+    title: 'Descript',
+    description: '革命性的音频编辑工具。',
+    tags: [{ text: '热门', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '🎵',
+    category: 'AI音频',
+    subCategory: '文本到语音',
+    url: 'https://www.descript.com'
+  },
+  {
+    title: 'Voicemod',
+    description: '实时语音变声器。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🎙️',
+    category: 'AI音频',
+    subCategory: 'AI语音克隆',
+    url: 'https://www.voicemod.net'
+  },
+  {
+    title: 'Boomy',
+    description: 'AI音乐创作平台。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🎹',
+    category: 'AI音频',
+    subCategory: 'AI作曲',
+    url: 'https://boomy.com'
+  },
+  {
+    title: 'Splash',
+    description: 'AI音乐生成工具。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🌊',
+    category: 'AI音频',
+    subCategory: 'AI作曲',
+    url: 'https://www.splashmusic.com'
+  },
+  // AI提示词工具
+  {
+    title: 'MJ Prompt Helper',
+    description: 'Midjourney提示词助手。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🎨',
+    category: 'AI提示词',
+    subCategory: '绘画提示词',
+    url: 'https://prompthelper.ai'
+  },
+  {
+    title: 'PromptPerfect',
+    description: 'AI提示词优化工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '✨',
+    category: 'AI提示词',
+    subCategory: '写作提示词',
+    url: 'https://promptperfect.ai'
+  },
+  {
+    title: 'LearnPrompting',
+    description: '提示词工程学习平台。',
+    tags: [{ text: '教程', type: 'edu' }, { text: 'EN', type: 'en' }],
+    icon: '📚',
+    category: 'AI提示词',
+    subCategory: '写作提示词',
+    url: 'https://learnprompting.org'
+  },
+  {
+    title: 'Promptist',
+    description: 'AI艺术提示词生成器。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🎭',
+    category: 'AI提示词',
+    subCategory: '绘画提示词',
+    url: 'https://promptist.com'
+  },
+  {
+    title: 'MidLibrary',
+    description: 'Midjourney提示词图书馆。',
+    tags: [{ text: '热门', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '📖',
+    category: 'AI提示词',
+    subCategory: '绘画提示词',
+    url: 'https://midlibrary.io'
+  },
+  {
+    title: 'PromptLayer',
+    description: '提示词版本控制和管理工具。',
+    tags: [{ text: '开发者', type: 'dev' }, { text: 'EN', type: 'en' }],
+    icon: '🔄',
+    category: 'AI提示词',
+    subCategory: '写作提示词',
+    url: 'https://promptlayer.com'
+  },
+  // AI设计工具
+  {
+    title: 'Galileo AI',
+    description: 'AI驱动的UI设计工具。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🎨',
+    category: 'AI设计',
+    subCategory: 'UI设计',
+    url: 'https://www.usegalileo.ai'
+  },
+  {
+    title: 'Designs.ai',
+    description: '一站式AI设计平台。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '🎯',
+    category: 'AI设计',
+    subCategory: 'Logo设计',
+    url: 'https://designs.ai'
+  },
+  {
+    title: 'Brandmark',
+    description: 'AI logo设计工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🎯',
+    category: 'AI设计',
+    subCategory: 'Logo设计',
+    url: 'https://brandmark.io'
+  },
+  {
+    title: 'Remove.bg',
+    description: 'AI图片背景消除工具。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '✂️',
+    category: 'AI设计',
+    subCategory: '品牌设计',
+    url: 'https://www.remove.bg'
+  },
+  {
+    title: 'Khroma',
+    description: 'AI配色工具。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🎨',
+    category: 'AI设计',
+    subCategory: 'UI设计',
+    url: 'https://khroma.co'
+  },
+  {
+    title: 'Looka',
+    description: 'AI品牌设计平台。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🎯',
+    category: 'AI设计',
+    subCategory: '品牌设计',
+    url: 'https://looka.com'
+  },
+  // AI数字人工具
+  {
+    title: 'DeepBrain AI',
+    description: '专业的AI数字人生成平台。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🤖',
+    category: 'AI数字人',
+    subCategory: '数字人生成',
+    url: 'https://www.deepbrain.io'
+  },
+  {
+    title: 'Soul Machines',
+    description: '数字人交互平台。',
+    tags: [{ text: '企业版', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '👥',
+    category: 'AI数字人',
+    subCategory: '数字人定制',
+    url: 'https://www.soulmachines.com'
+  },
+  {
+    title: 'Synthesia STUDIO',
+    description: '数字人视频生成平台。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🎬',
+    category: 'AI数字人',
+    subCategory: '数字人直播',
+    url: 'https://www.synthesia.io/studio'
+  },
+  {
+    title: 'Hour One',
+    description: 'AI数字人视频创作平台。',
+    tags: [{ text: '新品', type: 'new' }, { text: 'EN', type: 'en' }],
+    icon: '🎥',
+    category: 'AI数字人',
+    subCategory: '数字人生成',
+    url: 'https://hourone.ai'
+  },
+  {
+    title: 'Rephrase.ai',
+    description: 'AI数字人视频制作工具。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🎭',
+    category: 'AI数字人',
+    subCategory: '数字人定制',
+    url: 'https://www.rephrase.ai'
+  },
+  {
+    title: 'Colossyan Creator',
+    description: '企业级数字人视频平台。',
+    tags: [{ text: '企业版', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🎬',
+    category: 'AI数字人',
+    subCategory: '数字人直播',
+    url: 'https://www.colossyan.com'
+  },
+  // AI插件工具
+  {
+    title: 'Merlin',
+    description: '通用AI浏览器插件。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🧙‍♂️',
+    category: 'AI插件',
+    subCategory: '浏览器插件',
+    url: 'https://merlin.foyer.work'
+  },
+  {
+    title: 'ChatGPT for Google',
+    description: '在搜索结果中集成ChatGPT。',
+    tags: [{ text: '免费', type: 'free' }, { text: 'EN', type: 'en' }],
+    icon: '🔍',
+    category: 'AI插件',
+    subCategory: '浏览器插件',
+    url: 'https://chrome.google.com/webstore/detail/chatgpt-for-google/jgjaeacdkonaoafenlfkkkmbaopkbilf'
+  },
+  {
+    title: 'Notion AI',
+    description: 'Notion集成AI助手。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '📝',
+    category: 'AI插件',
+    subCategory: '办公插件',
+    url: 'https://www.notion.so/product/ai'
+  },
+  {
+    title: 'Grammarly AI',
+    description: 'AI写作助手插件。',
+    tags: [{ text: '推荐', type: 'hot' }, { text: 'EN', type: 'en' }],
+    icon: '✍️',
+    category: 'AI插件',
+    subCategory: '办公插件',
+    url: 'https://www.grammarly.com'
+  },
+  {
+    title: 'Figma AI',
+    description: 'Figma AI设计助手。',
+    tags: [{ text: '设计', type: 'design' }, { text: 'EN', type: 'en' }],
+    icon: '🎨',
+    category: 'AI插件',
+    subCategory: '设计插件',
+    url: 'https://www.figma.com/ai'
+  },
+  {
+    title: 'Adobe Firefly',
+    description: 'Adobe Creative Cloud AI插件。',
+    tags: [{ text: '付费', type: 'pro' }, { text: 'EN', type: 'en' }],
+    icon: '🎨',
+    category: 'AI插件',
+    subCategory: '设计插件',
+    url: 'https://www.adobe.com/products/firefly.html'
   }
 ]
 
